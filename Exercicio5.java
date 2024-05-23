@@ -9,6 +9,8 @@ public class Exercicio5 {
 
         String reversed = inverterString(palavra);
         System.out.println("String invertida: " + reversed);
+
+        scanner.close();
     }
 
     public static String inverterString(String palavra) {
